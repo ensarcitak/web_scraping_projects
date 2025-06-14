@@ -66,3 +66,8 @@ def _format_offers(offers):
             prices.append(f"Normal: {price}")
     return ", ".join(prices)
 
+
+def export_to_excel(df: pd.DataFrame, output_path="output/nyc_events_cleaned.xlsx"):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    df.to_excel(output_path, index=False)
+    print(f"Data exported to: {output_path}")

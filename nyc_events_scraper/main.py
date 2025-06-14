@@ -5,11 +5,12 @@ def main():
     print("NYC Events Pipeline Started...\n")
 
     get_all_events()
-    
-    print("\nPipeline finished successfully.")
-
     df = load_and_transform_events()
     print(f"\nTotal cleaned records: {len(df)}")
+
+    export_to_excel(df)
+
+    print("\nPipeline finished successfully.")
 
 if __name__ == "__main__":
     main()
