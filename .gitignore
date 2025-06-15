@@ -36,6 +36,54 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# === Data / Output Files ===
+*.txt          # Raw text data
+*.csv          # Comma-separated values
+*.tsv          # Tab-separated values
+*.xlsx         # Excel files
+*.xls
+*.ods          # OpenDocument Spreadsheet
+
+*.json         # JSON data files
+*.xml          # XML data files
+*.yaml
+*.yml
+
+*.db           # SQLite or other databases
+*.sqlite3
+*.db-journal
+
+*.parquet      # Columnar data files
+*.feather
+*.arrow
+*.orc
+*.avro
+
+*.sav          # SPSS data
+*.sas7bdat     # SAS
+*.dta          # Stata
+
+*.log          # Logs (output)
+*.out
+*.tmp
+*.bak
+
+*.zip          # Compressed data exports
+*.tar.gz
+*.7z
+*.rar
+
+# If your scraping outputs images or media:
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.mp4
+*.wav
+*.mp3
+
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
