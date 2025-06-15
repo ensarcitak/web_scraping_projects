@@ -25,7 +25,8 @@ CONFIG = {
         "value_input": "#value_input",
         "unit_dropdown": ".select2-selection.select2-selection--single",
         "gram_option": "//li[contains(text(), 'Gram')]",
+        "cookie_accept": "#onetrust-accept-btn-handler",
     },
-    "TIMEOUT": 10,  # seconds for WebDriverWait 
+    "TIMEOUT": 15,  # Artırılmış zaman aşımı süresi
     "SCROLL_SCRIPT": "window.scrollBy(0, 300);",
 }
