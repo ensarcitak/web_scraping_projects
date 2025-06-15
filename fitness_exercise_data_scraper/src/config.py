@@ -22,6 +22,6 @@ CONFIG = {
         "content_divs": "div.description__content",
         "description_list": "ul.description__list li",
     },
-    "TIMEOUT": 10,  # seconds for requests
+    "TIMEOUT": 20,  # seconds for requests
     "MAX_PAGES": 65,  # Fixed number of pages (can be made dynamic)
 }
