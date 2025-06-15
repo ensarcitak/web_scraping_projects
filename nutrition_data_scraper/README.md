@@ -92,6 +92,9 @@ source nutrition_scraper_venv/bin/activate      # Linux/Mac
 nutrition_scraper_venv\Scripts\activate         # Windows
 ```
 
+> ⚠️ **Note:** search_terms.txt is not shared to you. Create the data and input folders and put your search_terms.txt file inside of input folder.
+
+
 Run the main script:
 
 ```bash
